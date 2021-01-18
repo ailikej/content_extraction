@@ -1,0 +1,36 @@
+
+General Goal
+
+Take the following report in Word (.docx format), and extract all of its contents into an organized JSON structured document.
+
+Once you are done, zip your code, input Word file, output JSON file, and any other project contents, then send it to us via e-mail at mihai.v.avram@gmail.com
+
+Note: If for some reason you cannot attach your code, simply place it in a storage location in the cloud (e.g. Dropbox) and send the link to it in the e-mail.
+
+Due Date
+
+01/16/2021 (Saturday) at 10:30 AM CT
+
+
+Specifics
+
+- Create a Python service to extract "CareerOverviewCandidateJohnDoe.docx" into a JSON document called "CareerOverviewCandidateJohnDoe.json".
+
+- The solution should be coded in Python 3.
+
+- The "General Summary", "Chapter Summaries", and "Decision" sections should be separate keys in the JSON file, and under those keys/sections, their details can be placed. For instance, the "General Summary" section would contain just the "John Doe finished college a few years ago where he studied Physics. He shows..." content.
+
+- All the contents in the "Chapter Summaries" table need to be organized logically chapter by chapter in the JSON, as opposed to just being a text dump like the "General Summary" section.
+
+- Tip: You can use the python-docx v0.8.10 library (https://python-docx.readthedocs.io/en/latest/) or other similar variations/packages to help you parse the Word document.
+
+- Note: No plagiarism, we want original and creative work coming only from you.
+
+
+Bonus
+
+- Code that is well organized, and documented.
+
+- Coding best practices such as The Zen of Python (https://www.python.org/dev/peps/pep-0020/) and PEP 8 coding structure guidelines (https://www.python.org/dev/peps/pep-0008/) are encouraged. These guidelines don't need to be followed strictly or religiously - a best effort in their direction is good enough.
+
+- Test cases, CI/CD, or DevOps best practices are encouraged, show us what you know! You don't need to build everything though, comments on what you could do to improve this process are also good enough.
